@@ -1,0 +1,6 @@
+gcc -c lista.cpp -o lista.o
+gcc -c inserir.cpp -o inserir.o
+gcc -c remover.cpp -o remover.o
+gcc -c ex04.cpp -o ex04.o
+
+gcc lista.o inserir.o remover.o ex04.o -o ex04.exe -lstdc++

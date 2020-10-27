@@ -1,0 +1,4 @@
+gcc -c lista.cpp -o lista.o
+gcc -c ex08.cpp -o ex08.o
+
+gcc lista.o ex08.o -o ex08.exe -lstdc++

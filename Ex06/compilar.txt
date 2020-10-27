@@ -1,0 +1,4 @@
+gcc -c polinomio.cpp -o polinomio.o
+gcc -c ex06.cpp -o ex06.o
+
+g++ polinomio.o ex06.o -o ex06.exe

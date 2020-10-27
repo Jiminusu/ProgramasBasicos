@@ -1,0 +1,5 @@
+gcc -c produtos.cpp -o produtos.o
+gcc -c menu.cpp -o menu.o
+gcc -c ex01.cpp -o ex01.o
+
+gcc produtos.o menu.o ex01.o -o ex01.exe -lstdc++

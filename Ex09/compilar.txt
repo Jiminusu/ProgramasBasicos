@@ -1,0 +1,4 @@
+gcc -c presenca.cpp -o presenca.o
+gcc -c ex09.cpp -o ex09.o
+
+gcc presenca.o ex09.o -o ex09.exe -lstdc++
