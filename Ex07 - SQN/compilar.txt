@@ -1,3 +1,0 @@
-gcc -c ex07.cpp -o ex07.o
-
-gcc ex07.o -o ex07.exe -lstdc++
